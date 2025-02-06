@@ -7,7 +7,13 @@
 // Поверни свій новий масив з підходящими числами як результат.
 
 
-
+function filterArray(numbers, value) {
+    const newArray = [];
+    for (const num of numbers) {if(num > value)
+        newArray.push(num);        
+    }
+    return newArray;
+}
 
 
 
